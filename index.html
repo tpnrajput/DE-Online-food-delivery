@@ -1,0 +1,410 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Complete responsive food delivery website</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css"
+        integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="food.css">
+
+</head>
+
+<body>
+    <!-- button for go to top  -->
+    <!-- <a id="button"></a> -->
+    <!-- header section -->
+    L<header>
+        <a href="./index.html" class="logo"><i class="fas fa-utensils"></i>
+            FOODHUB
+        </a>
+        <div id="menu-bar" class="fas fa-bars"></div>
+
+        <nav class="navbar">
+            <a href="#search" class="fas fa-search" id="search-icon">
+                <span>Search</span>
+            </a>
+            <a href="#offers" class="fas fa-percentage">
+                <span>Offers</span>
+            </a>
+            <a href="./menu.html" class="fas fa-book">
+                <span>Menu</span>
+            </a>
+            <a href="./about.html" class="fas fa-tablet">
+                <span>About</span>
+            </a>
+            <a href="./contact.html" class="fas fa-phone">
+                <span>Contact</span>
+            </a>
+            <a href="./cart.html" class="fas fa-shopping-cart">
+                <span>Cart</span>
+            </a>
+        </nav>
+        <section class="flex">
+            <div class="icon">
+                <div id="user-btn" class="fas fa-user">
+                    <span> login/register </span>
+                </div>
+            </div>
+
+            <div class="profile">
+                <p class="name">Tapan</p>
+                <div class="flex">
+                    <a href="./profile.html" class="btn1">profile</a>
+                    <a href="#" class="delete-btn">logout</a>
+                </div>
+                <p class="account"><a href="./login.html">login</a> or <a href="./register.html">register</a></p>
+            </div>
+        </section>
+    </header>
+
+    <!-- search form  starts for header section-->
+    <form action="" id="search-form">
+        <input type="search" placeholder="search your food" name="search" id="search-box">
+        <label for="search-box" class="fas fa-search"></label>
+        <i class="fas fa-times" id="close"></i>
+    </form>
+
+    <!-- home section starts -->
+    <section class="home" id="home">
+        <div class="content">
+            <h3>food made with love</h3>
+            <p>The most important ingredient and healing effect in the preparation of all meals and dishes: &nbsp;is
+                Love!! It's always available and free. It causes well being health,joy,gratitude and
+                satisfaction.</p>
+            <a href="#" class="btn">order now</a>
+        </div>
+        <div class="image">
+            <img src="./images/bg-home.jpg" alt="Home">
+        </div>
+
+    </section>
+
+    <!-- speciality section starts -->
+
+    <section class="speciality" id="speciality">
+        <h1 class="heading">Our <span>speciality</span></h1>
+        <div class="box-container">
+            <div class="box">
+                <img class="image" src="./Images/burger.jpg" alt="">
+                <div class="content">
+                    <img src="./Images/burger-icon1.jpg" alt="">
+                    <h3>Tasty Burger</h3>
+                    <p>Our tasty burgers are a combination of tastes and textures like: sweet, sour, salt- with a bit
+                        of crunch. The patty are juicy, the bun soft but sturdy and you want a bun
+                        /accompaniment ratio to be even from first to the last bite.</p>
+                </div>
+            </div>
+            <div class="box">
+                <img class="image" src="./Images/pizza.jpg" alt="">
+                <div class="content">
+                    <img src="./Images/pizza-icon.jpg" alt="">
+                    <h3>Tasty pizza</h3>
+                    <p>Our tasty pizza have dairy-fresh cheese,garden-fresh tomatos and no wilting veggies. You want the
+                        best pizza to be cooked to a crisp. The cheese is melted,crushed and have some crunch to it, the
+                        toppies is well-cooked. </p>
+                </div>
+            </div>
+            <div class="box">
+                <img class="image" src="./Images/g-ice-cream1.jpg" alt="">
+                <div class="content">
+                    <img src="./Images/ice-icon.jpg" alt="">
+                    <h3>cold ice-cream</h3>
+                    <p>Cold ice-cream is colloidal emulsion made with water,ice,milk,fat,protein,sugar,air and menus are
+                        chocolate chip, vanilla ice cream, Butter pecan and the most loved ice-cream by the customer is
+                        Gelato al pistacchio.
+                    </p>
+                </div>
+            </div>
+            <div class="box">
+                <img class="image" src="./Images/cold-drink.jpg" alt="">
+                <div class="content">
+                    <img src="./Images/drink-icon.jpg" alt="">
+                    <h3>cold drinks</h3>
+                    <p>Our cold drinks are made with the water-based flavored drinks usually with added carbon dioxide
+                        and with nutritive, nonnutritive and intense sweeteners with other permitted food additives like
+                        long island iced tea, iced tea, watermelon juice, blueberry lemonade and much
+                        more to be juicy..</p>
+                </div>
+            </div>
+            <div class="box">
+                <img class="image" src="./Images/sweets.jpg" alt="">
+                <div class="content">
+                    <img src="./Images/sweet-icon.jpg" alt="">
+                    <h3>tasty sweets</h3>
+                    <p>Our tasty sweets are best of the best delicious desserts, bakes , Sweets are like chocolate chip
+                        cookies, Gulab Jamun- deep fried sweets , desserts like cookie dough cheesecake, strawberry
+                        cheesecake poke cake etc.,Macarons and
+                        much more sweets to try daily!!</p>
+                </div>
+            </div>
+            <div class="box">
+                <img class="image" src="./Images/breakfast1.jpg" alt="">
+                <div class="content">
+                    <img src="./Images/cup-icon.jpg" alt="">
+                    <h3>healthy breakfast</h3>
+                    <p>Weak up to a tasty, nutritious breakfast wheather it's high-protein eggs, avacado on toast,
+                        porridge or a healthy smoothie to fuel you through the morning and much more dishes like Healthy
+                        porridge
+                        bowl, Ovenight oats, Mushroom hash with poached eggs, Fruit & nut breakfast bowl etc..</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- popular section starts -->
+    <section class="popular" id="popular">
+        <h1 class="heading">most <span>popular</span> foods </h1>
+        <div class="box-container">
+            <div class="box">
+                <span class="price"> $5 - $20 </span>
+                <img src="./Images/popular-food.jpg" alt="">
+                <h3>tasty burger</h3>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="far fa-star"></i>
+                </div>
+                <a href="#" class="btn">order now</a>
+            </div>
+            <div class="box">
+                <span class="price">$5 - $20 </span>
+                <img src="./Images/tasty-cake.jpg" alt="">
+                <h3>tasty cakes</h3>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="far fa-star"></i>
+                </div>
+                <a href="#" class="btn">order now</a>
+            </div>
+            <div class="box">
+                <span class="price">$5 - $20 </span>
+                <img src="./Images/sweets1.jpg" alt="">
+                <h3>tasty sweets</h3>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="far fa-star"></i>
+                </div>
+                <a href="#" class="btn">order now</a>
+            </div>
+            <div class="box">
+                <span class="price">$5 - $20 </span>
+                <img src="./Images/cupcake.jpg" alt="">
+                <h3>tasty cupcakes</h3>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="far fa-star"></i>
+                </div>
+                <a href="#" class="btn">order now</a>
+            </div>
+            <div class="box">
+                <span class="price">$5 - $20 </span>
+                <img src="./Images/cold-drink1.jpg" alt="">
+                <h3>cold drinks</h3>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="far fa-star"></i>
+                </div>
+                <a href="#" class="btn">order now</a>
+            </div>
+            <div class="box">
+                <span class="price">$5 - $20 </span>
+                <img src="./Images/ice-cream.jpg" alt="">
+                <h3>cold ice-cream</h3>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="far fa-star"></i>
+                </div>
+                <a href="#" class="btn">order now</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- steps section starts -->
+    <section class="steps">
+            <h1 class="heading"> How it <span> works? </span></h1>
+            <div class="box">
+                <img src="./Images/get-food.jpg" alt="">
+                <h3>Choose your favourite food</h3>
+            </div>
+            <div class="box">
+                <img src="./Images/free-delivery.jpg" alt="">
+                <h3>Free and fast delivery</h3>
+            </div>
+            <div class="box">
+                <img src="./Images/payment.jpg" alt="">
+                <h3>easy payments methods</h3>
+            </div>
+            <div class="box">
+                <img src="./Images/enjoy-food.jpg" alt="">
+                <h3>and finally, enjoy your food</h3>
+            </div>
+    </section>
+
+
+    <!-- gallery section starts -->
+
+    <section class="gallery" id="gallery">
+        <h1 class="heading"> our food <span> gallery </span></h1>
+        <div class="box-container">
+            <div class="box">
+                <img src="./Images/gallery.jpg" alt="">
+                <div class="content">
+                    <h3>tasty food</h3>
+                    <p> Tasty burgers are a combination of tastes and textures like: sweet, sour, salt- with a bit
+                        of crunch. </p>
+                    <a href="#" class="btn">order now</a>
+                </div>
+            </div>
+            <div class="box">
+                <img src="./Images/multi-cake.jpg" alt="">
+                <div class="content">
+                    <h3>tasty food</h3>
+                    <p>Non -Veg :Our cakes look beautiful and taste divine, made up with Custard which contains Egg
+                        yolks</p>
+                    <a href="#" class="btn">order now</a>
+                </div>
+            </div>
+            <div class="box">
+                <img src="./Images/sweet2.jpg" alt="">
+                <div class="content">
+                    <h3>tasty food</h3>
+                    <p>Our tasty sweets are best of the best delicious desserts, bakes , Sweets are like chocolate chip
+                        cookies, Gulab Jamun- deep fried sweets</p>
+                    <a href="#" class="btn">order now</a>
+                </div>
+            </div>
+            <div class="box">
+                <img src="./Images/our-food.jpg" alt="">
+                <div class="content">
+                    <h3>tasty food</h3>
+                    <p>Our cold drinks are made with the water-based flavored drinks usually with added carbon dioxide
+                        and with nutritive, nonnutritive and intense sweeteners with other permitted food additives like
+                        long island iced tea..</p>
+                    <a href="#" class="btn">order now</a>
+                </div>
+            </div>
+            <div class="box">
+                <img src="./Images/g-south.jpg" alt="">
+                <div class="content">
+                    <h3>tasty food</h3>
+                    <p>That contains various south indian items like Masala dosa origating from the state of Karnataka,
+                        Sambar, Upma, Pongal many more..</p>
+                    <a href="#" class="btn">order now</a>
+                </div>
+            </div>
+            <div class="box">
+                <img src="./Images/chocolate.jpg" alt="">
+                <div class="content">
+                    <h3>tasty food</h3>
+                    <p>Our healthy dark chocolates which contains a cocoa percentage of 70%, which provides more healthy
+                        benefits.</p>
+                    <a href="#" class="btn">order now</a>
+                </div>
+            </div>
+            <div class="box">
+                <img src="./Images/single-cake.jpg" alt="">
+                <div class="content">
+                    <h3>tasty food</h3>
+                    <p>Pure veg: our cakes look beautiful and taste divine, and it have a perfect balance of appearance,
+                        texture
+                        and flavour.</p>
+                    <a href="#" class="btn">order now</a>
+                </div>
+            </div>
+            <div class="box">
+                <img src="./Images/sandwitch.jpg" alt="">
+                <div class="content">
+                    <h3>tasty food</h3>
+                    <p>Try new fiilings and toppings for your sandwiches, wraps and buns. Our next level sarnies include
+                        classic club sandwiches, baguettes and picnic facourites.</p>
+                    <a href="#" class="btn">order now</a>
+                </div>
+            </div>
+            <div class="box">
+                <img src="./Images/non-veg.jpg" alt="">
+                <div class="content">
+                    <h3>tasty food</h3>
+                    <p>The food that roast on a stick like Damper, roasted Bananas, kebabs, more fruit- apples, peaches
+                        etc..</p>
+                    <a href="#" class="btn">order now</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- order section starts -->
+    <section class="order" id="order">
+        <h1 class="heading"><span>order</span> now </h1>
+        <div class="row">
+            <div class="image">
+                <img src="./Images/order.jpg" alt="">
+            </div>
+            <form action="">
+                <div class="inputBox">
+                    <input type="text" placeholder=" Enter your name">
+                    <input type="eamil" placeholder=" Enter your email">
+                </div>
+                <div class="inputBox">
+                    <input type="number" placeholder=" phone number">
+                    <input type="text" placeholder="Food name">
+                </div>
+                <textarea placeholder="address" name="" id="" cols="30" rows="10"></textarea>
+                <a href="#" class="btn">order now</a>
+            </form>
+        </div>
+    </section>
+
+    <!-- footer section starts -->
+    <section class="footer">
+        <div class="share">
+            <a href="" class="fab fa-facebook-f"></a>
+            <a href="mailto:tpnjadav@gmail.com" class="fas fa-envelope"></a>
+            <a href="" class="fab fa-instagram"></a>
+            <a href="https://www.linkedin.com/in/tapan-rajput-186107234/" class="fab fa-linkedin"></a>
+            <a href="" class="fab fa-pinterest"></a>
+            <a href="https://github.com/tpnrajput" class="fab fa-github"></a>
+        </div>
+
+        <div class="links">
+            <a href="./index.html">home</a>
+            <a href="./about.html">about</a>
+            <a href="./login.html">login</a>
+            <a href="./register.html">Register</a>
+            <a href="./menu.html">menu</a>
+            <a href="./contact.html">contact us</a>
+        </div>
+        <div class="credit">
+            created by <span>&nbsp;&nbsp; Priyank,Akshay,Rakshit,Tapan </span>&nbsp;| all rights reserved
+        </div>
+    </section>
+
+
+    <script src="food.js">
+
+    </script>
+
+</body>
+
+</html>
